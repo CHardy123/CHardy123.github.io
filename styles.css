@@ -95,13 +95,13 @@ ul {
         padding: 10px;
         column-gap: 30px;
     }
-    #skills div {
+    #skills ul {
         background-color: var(--secondary-color);
         color: var(--text-color);
         font-family: Helvetica;
 
     }
-    
+   
     /* Adjusting Layout for Device Size */
     @media screen and (min-width: 768px) and (max-width: 1023px) {
         div.flex-container {
