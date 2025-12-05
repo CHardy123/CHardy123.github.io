@@ -10,7 +10,7 @@
 
 
 /* Nav Menu */
-ul {
+nav ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -93,9 +93,10 @@ ul {
         grid-template-columns: auto auto auto;
         background-color: var(--secondary-color);
         padding: 10px;
+        padding-top: 50px;
         column-gap: 30px;
     }
-    #skills ul {
+    #skills li {
         background-color: var(--secondary-color);
         color: var(--text-color);
         font-family: Helvetica;
